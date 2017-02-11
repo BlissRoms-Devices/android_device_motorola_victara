@@ -133,10 +133,6 @@ PRODUCT_PACKAGES += \
     libgenlock \
     memtrack.msm8974
 
-# Gello
-PRODUCT_PACKAGES += \
-    Gello
-
 # GPS
 PRODUCT_PACKAGES += \
     gps.msm8974
@@ -257,8 +253,3 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini \
     $(LOCAL_PATH)/wifi/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
-
-# CMActions
-PRODUCT_PACKAGES += \
-    CMActions \
-    libjni_CMActions
