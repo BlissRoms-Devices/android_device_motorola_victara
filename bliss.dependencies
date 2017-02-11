@@ -1,9 +1,9 @@
 [
  {
    "remote": "github",
-   "repository": "LineageOS/android_kernel_motorola_msm8974",
+   "repository": "rwaterspf1/android_kernel_motorola_msm8974",
    "target_path": "kernel/motorola/msm8974",
-   "revision": "cm-14.1"
+   "revision": "n7.1-caf"
  },
  {
    "remote": "github",
