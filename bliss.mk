@@ -1,6 +1,6 @@
 $(call inherit-product, device/motorola/victara/full_victara.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common Bliss stuff.
 $(call inherit-product, vendor/bliss/config/common.mk)
 
 # Overlay
@@ -10,3 +10,6 @@ PRODUCT_RELEASE_NAME := MOTO X (2014)
 PRODUCT_NAME := bliss_victara
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.product.model=victara
