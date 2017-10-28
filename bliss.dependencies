@@ -1,0 +1,14 @@
+[
+ {
+    "remote": "github",
+    "repository": "BlissRoms-Kernels/android_kernel_motorola_msm8974",
+    "target_path": "kernel/motorola/msm8974",
+    "revision": "o8.0"
+ },
+ {
+    "remote": "github",
+    "repository": "BlissRoms-Vendor/proprietary_vendor_motorola_victara",
+    "target_path": "vendor/motorola",
+    "revision": "o8.0"
+ }
+]
